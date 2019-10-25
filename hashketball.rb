@@ -1,4 +1,4 @@
-def hashketball' do
+def hashketball
 
   describe '#game_hash' do
     let(:top_level_keys) { [:home, :away] }
