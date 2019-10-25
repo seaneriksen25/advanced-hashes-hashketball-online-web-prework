@@ -1,7 +1,6 @@
-def hashketball
+def game_hash
 
-  describe '#game_hash' do
-    let(:top_level_keys) { [:home, :away] }
+    :home, :away
     let(:team_level_keys) { [:team_name, :colors, :players] }
 
     it 'returns a hash' do
